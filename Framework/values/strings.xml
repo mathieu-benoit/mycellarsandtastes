@@ -1,0 +1,52 @@
+<resources>
+
+    <string name="app_name">Framework</string>
+    <string name="common_dialog_yes">Yes</string>
+    <string name="common_dialog_no">No</string>
+    <string name="common_dialog_cancel">Cancel</string>
+    <string name="listpage_filter">Filters</string>
+    <string name="listpage_header">Count:</string>
+    <string name="listpage_emptylist">No element found.</string>
+    <string name="listpage_menu_add">Add</string>
+    <string name="listpage_menu_search">Search</string>
+    <string name="listpage_menu_sort">Sort</string>
+    <string name="listpage_menu_edit">Edit</string>
+    <string name="listpage_menu_removeall">Remove all</string>
+    <string name="listpage_menu_remove">Remove</string>
+
+    <plurals name="listpage_delete_dialog">
+        <item quantity="one">Are you sure you want to remove this item (%1$s)?</item>
+        <item quantity="other">Are you sure you want to remove these %2$d items (%1$s)?</item>
+    </plurals>
+
+    <string name="listpage_deleteall_noitem">No item to remove.</string>
+    <string name="listpage_deleteall_successful">%1$d items were deleted.</string>
+    <string name="listpage_sort_dialog">Type of sorting</string>
+    <string name="listpage_sort_dialog_asc">Ascending</string>
+    <string name="listpage_sort_dialog_desc">Descending</string>
+    <string name="entryform_newtitle">(New)</string>
+    <string name="entryform_menu_save">Save</string>
+    <string name="entryform_menu_delete">Remove</string>
+    <string name="entryform_menu_duplicate">Duplicate</string>
+    <string name="entryform_ask_to_save">Do you want to save your changes?</string>
+    <string name="entryform_checkingdata_fieldshouldbeassigned">The field %1$s must be assigned.</string>
+    <string name="entryform_checkingdata_valueisduplicated">The value of the field %1$s already exists for another form %2$s.</string>
+    <string name="scan_activity_install_title">Install \"Barcode Scanner\"?</string>
+    <string name="scan_activity_install_message">This application requires \"Barcode Scanner\", \"QuickMark\", \"QR Droid\" or \"Goggles\". Would you like to install \"Barcode Scanner\"?</string>
+    <string name="imageview_activity_name">Picture</string>
+    <string name="imageview_activity_no_picture">No picture</string>
+    <string name="imageview_activity_choosedialog_title">Selection of the picture</string>
+    <string name="imageview_activity_choosepicture">Choose the picture</string>
+    <string name="imageview_activity_takepicture">Take the picture</string>
+    <string name="imageview_activity_removepicture">Remove the picture</string>
+    <string name="imageview_activity_rotatepicture">Rotate the picture</string>
+    <string name="imageview_activity_removepicture_dialog">Are you sure you want remove this picture?</string>
+    <string name="foldershelper_cannotcopyfile">Cannot copy the file %1$s to the file %2$s.</string>
+    <string name="foldershelper_cannotfindfile">The file %1$s is not found.</string>
+    <string name="dbadapter_cannotdelete">Cannot delete this item because it is used by %1$d items of the table %2$s.</string>
+    <string name="app_not_available">The application required is not installed or is restricted.</string>
+    <string name="main_menu_menu">Menu</string>
+    <string name="always_kills_activities_option_checked_text">The “Don\'t keep activities” developer setting of your phone can lead to a malfunction of pictures management. Do you want to uncheck it?</string>
+    <string name="always_kills_activities_option_checked_title">Warning</string>
+
+</resources>
