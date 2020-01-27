@@ -1,0 +1,51 @@
+<resources>
+
+    <string name="common_dialog_yes">Si</string>
+    <string name="common_dialog_no">No</string>
+    <string name="common_dialog_cancel">Annullare</string>
+    <string name="listpage_filter">Filtri</string>
+    <string name="listpage_header">Conteggio:</string>
+    <string name="listpage_emptylist">Nessun elemento da mostare.</string>
+    <string name="listpage_menu_add">Aggiungere</string>
+    <string name="listpage_menu_search">Ricercare</string>
+    <string name="listpage_menu_sort">Ordinar</string>
+    <string name="listpage_menu_edit">Modificare</string>
+    <string name="listpage_menu_removeall">Rimuovere tutti</string>
+    <string name="listpage_menu_remove">Rimuovere</string>
+
+    <plurals name="listpage_delete_dialog">
+        <item quantity="one">Sei sicuro di voler rimuovere questo elemento (%1$s)?</item>
+        <item quantity="other">Sei sicuro di voler rimuovere questi %2$d elementi (%1$s)?</item>
+    </plurals>
+
+    <string name="listpage_deleteall_noitem">Nessun elemento da rimuovere.</string>
+    <string name="listpage_deleteall_successful">%1$d elementi rimossi.</string>
+    <string name="listpage_sort_dialog">Tipo di ordinamento</string>
+    <string name="listpage_sort_dialog_asc">Ascendente</string>
+    <string name="listpage_sort_dialog_desc">Discendente</string>
+    <string name="entryform_newtitle">(Nuovo)</string>
+    <string name="entryform_menu_save">Salvare</string>
+    <string name="entryform_menu_delete">Cancellare</string>
+    <string name="entryform_menu_duplicate">Duplicare</string>
+    <string name="entryform_ask_to_save">Vuoi salvare le modifiche?</string>
+    <string name="entryform_checkingdata_fieldshouldbeassigned">Il campo %1$s deve essere assegnato.</string>
+    <string name="entryform_checkingdata_valueisduplicated">Il valore del campo %1$s esiste già per un altro modulo %2$s</string>
+    <string name="scan_activity_install_title">Installa \"Barcode Scanner\"?</string>
+    <string name="scan_activity_install_message">Questa azione necessita dell\'applicazione di \"Barcode Scanner\", \"QR Droid\" o \"Goggles\". Installare \"Barcode Scanner\"?</string>
+    <string name="imageview_activity_name">Foto</string>
+    <string name="imageview_activity_no_picture">Senza foto</string>
+    <string name="imageview_activity_choosedialog_title">Selezione della foto</string>
+    <string name="imageview_activity_choosepicture">Scegliere una foto</string>
+    <string name="imageview_activity_takepicture">Scattare una foto</string>
+    <string name="imageview_activity_removepicture">Cancellare foto</string>
+    <string name="imageview_activity_rotatepicture">Ruotare foto</string>
+    <string name="imageview_activity_removepicture_dialog">Sei sicuro di voler rimuovere questa foto?</string>
+    <string name="foldershelper_cannotcopyfile">Cannot copy the file %1$s to the file %2$s.</string>
+    <string name="foldershelper_cannotfindfile">The file %1$s is not found.</string>
+    <string name="dbadapter_cannotdelete">Impossibile eliminare il elemento perché è usato da %1$d elementi della tabella %2$s.</string>
+    <string name="app_not_available">L\'applicazione richiesta non è installata o è limitata.</string>
+    <string name="main_menu_menu">Menu</string>
+    <string name="always_kills_activities_option_checked_text">I "Non conservare attività" impostazioni di sviluppo del telefono possono portare a un malfunzionamento della gestione delle immagini. Vuoi deselezionarla?</string>
+    <string name="always_kills_activities_option_checked_title">Avvertimento</string>
+
+</resources>
