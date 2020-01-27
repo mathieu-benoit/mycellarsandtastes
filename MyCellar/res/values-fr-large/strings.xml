@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="viewtype_array">
+        <item>En liste</item>
+        <item>En galerie</item>
+        <item>En grille</item>
+    </string-array>
+
+</resources>
