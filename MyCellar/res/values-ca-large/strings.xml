@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="viewtype_array">
+        <item>En llista</item>
+        <item>En galeria</item>
+        <item>En quadrícula</item>
+    </string-array>
+
+</resources>
