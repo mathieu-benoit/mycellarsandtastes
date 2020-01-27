@@ -1,0 +1,51 @@
+<resources>
+
+    <string name="common_dialog_yes">Ja</string>
+    <string name="common_dialog_no">Nein</string>
+    <string name="common_dialog_cancel">Abbestellen</string>
+    <string name="listpage_filter">Filter</string>
+    <string name="listpage_header">Anzahl:</string>
+    <string name="listpage_emptylist">Element nicht gefunden.</string>
+    <string name="listpage_menu_add">Hinzufügen</string>
+    <string name="listpage_menu_search">Suchen</string>
+    <string name="listpage_menu_sort">Sortieren</string>
+    <string name="listpage_menu_edit">Bearbeiten</string>
+    <string name="listpage_menu_removeall">Alle entfernen</string>
+    <string name="listpage_menu_remove">Entfernen</string>
+
+    <plurals name="listpage_delete_dialog">
+        <item quantity="one">Wollen Sie das Element wirklich entfernen (%1$s)?</item>
+        <item quantity="other">Wollen Sie diese %2$d Elemente wirklich entfernen (%1$s)?</item>
+    </plurals>
+
+    <string name="listpage_deleteall_noitem">Kein Element zum entfernen.</string>
+    <string name="listpage_deleteall_successful">%1$d Elemente wurden entfernt.</string>
+    <string name="listpage_sort_dialog">Art der Sortierung</string>
+    <string name="listpage_sort_dialog_asc">Aufsteigend</string>
+    <string name="listpage_sort_dialog_desc">Absteigend</string>
+    <string name="entryform_newtitle">(Neu)</string>
+    <string name="entryform_menu_save">Speichern</string>
+    <string name="entryform_menu_delete">Entfernen</string>
+    <string name="entryform_menu_duplicate">Duplizieren</string>
+    <string name="entryform_ask_to_save">Wollen Sie Ihre Änderungen speichern?</string>
+    <string name="entryform_checkingdata_fieldshouldbeassigned">Das Feld %1$s muss ausgefüllt werden.</string>
+    <string name="entryform_checkingdata_valueisduplicated">Der Wert des Feldes %1$s existiert bereits für eine andere Form %2$s.</string>
+    <string name="scan_activity_install_title">\"Barcode Scanner\" insallieren?</string>
+    <string name="scan_activity_install_message">Anwendung benötigt \"Barcode Scanner\", \"QuickMark\", \"QR Droid\" oder \"Goggles\". Wollen Sie \"Barcode Scanner\" installieren?</string>
+    <string name="imageview_activity_name">Bild</string>
+    <string name="imageview_activity_no_picture">Kein Bild</string>
+    <string name="imageview_activity_choosedialog_title">Foto auswählen</string>
+    <string name="imageview_activity_choosepicture">Foto auswählen</string>
+    <string name="imageview_activity_takepicture">Foto machen</string>
+    <string name="imageview_activity_removepicture">Foto entfernen</string>
+    <string name="imageview_activity_rotatepicture">Foto drehen</string>
+    <string name="imageview_activity_removepicture_dialog">Wollen Sie das Foto wirklich entfernen?</string>
+    <string name="foldershelper_cannotcopyfile">Die Datei %1$s kann nicht in der Datei %2$s gespeichert werden.</string>
+    <string name="foldershelper_cannotfindfile">Datei %1$s nicht gefunden.</string>
+    <string name="dbadapter_cannotdelete">Dieses Element kann nicht gelöscht werden, weil es von %1$d Elementen der Tabelle %2$s verwendet wird.</string>
+    <string name="app_not_available">Die Anwendung erforderlich ist nicht installiert oder ist eingeschränkt.</string>
+    <string name="main_menu_menu">Menü</string>
+    <string name="always_kills_activities_option_checked_text">Die "Aktionen nicht speichern" Entwickler Einstellungen Ihres Telefons kann zu einer Fehlfunktion des Bild-Management führen. Wollen Sie es deaktivieren?</string>
+    <string name="always_kills_activities_option_checked_title">Warnung</string>
+
+</resources>
