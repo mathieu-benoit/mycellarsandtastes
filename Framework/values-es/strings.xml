@@ -1,0 +1,51 @@
+<resources>
+
+    <string name="common_dialog_yes">Sí</string>
+    <string name="common_dialog_no">No</string>
+    <string name="common_dialog_cancel">Cancelar</string>
+    <string name="listpage_filter">Filtros</string>
+    <string name="listpage_header">Cuenta:</string>
+    <string name="listpage_emptylist">Ningún elemento encontrado.</string>
+    <string name="listpage_menu_add">Añadir</string>
+    <string name="listpage_menu_search">Buscar</string>
+    <string name="listpage_menu_sort">Ordenar</string>
+    <string name="listpage_menu_edit">Editar</string>
+    <string name="listpage_menu_removeall">Eliminar todo</string>
+    <string name="listpage_menu_remove">Eliminar</string>
+
+    <plurals name="listpage_delete_dialog">
+        <item quantity="one">¿Está seguro que desea eliminar esto dato (%1$s)?</item>
+        <item quantity="other">¿Está seguro que desea eliminar estos %2$d datos (%1$s)?</item>
+    </plurals>
+
+    <string name="listpage_deleteall_noitem">No datos para eliminar.</string>
+    <string name="listpage_deleteall_successful">%1$d datos eliminados.</string>
+    <string name="listpage_sort_dialog">Tipo de ordenación</string>
+    <string name="listpage_sort_dialog_asc">Ascendente</string>
+    <string name="listpage_sort_dialog_desc">Descendente</string>
+    <string name="entryform_newtitle">(Nuevo)</string>
+    <string name="entryform_menu_save">Guardar</string>
+    <string name="entryform_menu_delete">Eliminar</string>
+    <string name="entryform_menu_duplicate">Duplicar</string>
+    <string name="entryform_ask_to_save">¿Desea guardar los cambios?</string>
+    <string name="entryform_checkingdata_fieldshouldbeassigned">El campo %1$s debe ser asignado.</string>
+    <string name="entryform_checkingdata_valueisduplicated">El valor del campo %1$s ya existe para un otro registro %2$s.</string>
+    <string name="scan_activity_install_title">Instalación de \"Barcode Scanner\"?</string>
+    <string name="scan_activity_install_message">Esta aplicación requiere de \"Barcode Scanner\", \"QuickMark\", \"QR Droid\" o \"Goggles\". ¿Te gustaría que instale \"Barcode Scanner\"?</string>
+    <string name="imageview_activity_name">Foto</string>
+    <string name="imageview_activity_no_picture">Sin foto</string>
+    <string name="imageview_activity_choosedialog_title">Selección de la foto</string>
+    <string name="imageview_activity_choosepicture">Eligir la foto</string>
+    <string name="imageview_activity_takepicture">Tomar la foto</string>
+    <string name="imageview_activity_removepicture">Eliminar la foto</string>
+    <string name="imageview_activity_rotatepicture">Girar la foto</string>
+    <string name="imageview_activity_removepicture_dialog">¿Está seguro que desea eliminar esta foto?</string>
+    <string name="foldershelper_cannotcopyfile">No se puede copiar el fichero %1$s al fichero %2$s.</string>
+    <string name="foldershelper_cannotfindfile">Fichero %1$s no encontrado.</string>
+    <string name="dbadapter_cannotdelete">No se puede eliminar este dato porque se utiliza por %1$d datos de la tabla %2$s.</string>
+    <string name="app_not_available">La aplicación requiere no está instalada o está restringida.</string>
+    <string name="main_menu_menu">Menu</string>
+    <string name="always_kills_activities_option_checked_text">El "Destruir actividades" configuración de desarrolladores de su teléfono pueden conducir a un mal funcionamiento de la gestión de las imágenes. ¿Queréis desactivarlo?</string>
+    <string name="always_kills_activities_option_checked_title">Advertencia</string>
+
+</resources>
