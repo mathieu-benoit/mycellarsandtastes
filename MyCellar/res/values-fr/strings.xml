@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Mes caves et dégustations</string>
+    <!-- Main -->
+    <string name="main_rate_menu">Voter</string>
+    <string name="main_sendemail_menu">Contacter</string>
+    <string name="main_sendemail_title">Envoyer un e-mail &#8230;</string>
+    <string name="main_share_menu">Partager</string>
+    <string name="main_share_title">Partager avec &#8230;</string>
+    <string name="main_share_extrasubject">Application Android \"%1$s\"</string>
+    <string name="main_search_bytext">Recherche par texte</string>
+    <string name="main_search_bycode">Recherche par code barre</string>
+    <string name="main_searchbarcode_createbottle">Cette bouteille n\'existe pas, voulez-vous le créer ?</string>
+    <string name="main_history_button">10 dernières entrées</string>
+
+    <string-array name="navbar_array">
+        <item>Bouteilles</item>
+        <item>10 dernières entrées</item>
+        <item>Rechercher</item>
+        <item>Mes couleurs</item>
+        <item>Mes étagères</item>
+        <item>Mes caves</item>
+        <item>Paramètres / Outils</item>
+        <item>Aide</item>
+    </string-array>
+    <!-- Schema Bottle -->
+    <string name="schema_bottle_tablename">Bouteille</string>
+    <string name="schema_bottle_column_name">Nom</string>
+    <string name="schema_bottle_column_color">Couleur</string>
+    <string name="schema_bottle_column_country">Pays</string>
+    <string name="schema_bottle_column_region">Région</string>
+    <string name="schema_bottle_column_designation">Appellation</string>
+    <string name="schema_bottle_column_quantity">Quantité</string>
+    <string name="schema_bottle_column_vintage">Millésime</string>
+    <string name="schema_bottle_column_price">Prix d\'achat</string>
+    <string name="schema_bottle_column_picture">Étiquette</string>
+    <string name="schema_bottle_column_rating">Vote</string>
+    <string name="schema_bottle_column_barcode">Code barre</string>
+    <string name="schema_bottle_column_degrees">Degrès (%)</string>
+    <string name="schema_bottle_column_notes">Notes</string>
+    <string name="schema_bottle_column_capacity">Contenance (litre)</string>
+    <string name="schema_bottle_column_dueyear">Année minimum de maturité</string>
+    <string name="schema_bottle_column_maxdueyear">Année maximum de maturité</string>
+    <string name="schema_bottle_column_tobuy">À acheter</string>
+    <string name="schema_bottle_column_domain">Domaine</string>
+    <string name="schema_bottle_column_provider">Fournisseur</string>
+    <string name="schema_bottle_column_producer">Producteur</string>
+    <string name="schema_bottle_column_biologic">Agriculture biologique (AB)</string>
+    <string name="schema_bottle_column_toforget">À oublier</string>
+    <string name="schema_bottle_column_temperature">Température de service (°C)</string>
+    <string name="schema_bottle_column_backpicture">Contre-étiquette</string>
+    <string name="schema_bottle_column_currentprice">Prix actuel</string>
+    <string name="schema_bottle_column_classification">Classification</string>
+    <string name="schema_bottle_column_award">Distinction</string>
+    <string name="schema_bottle_column_subregion">Sous-région</string>
+    <string name="schema_bottle_column_hyperlink">Hyperlien</string>
+    <string name="schema_bottle_column_incommand">En commande</string>
+    <string name="schema_bottle_column_tokeep">À garder</string>
+    <string name="schema_bottle_column_toconsume">À consommer</string>
+    <!-- Schema Shelve -->
+    <string name="schema_shelve_tablename">Étagère</string>
+    <string name="schema_shelve_default_name">[Sans étagère]</string>
+    <string name="schema_shelve_column_name">Nom</string>
+    <string name="schema_shelve_column_columns">Nombre de colonnes</string>
+    <string name="schema_shelve_column_rows">Nombre de lignes</string>
+    <string name="schema_shelve_column_notes">Notes</string>
+    <string name="schema_shelve_column_type">Type</string>
+    <string name="schema_shelve_column_cellarid">Cave</string>
+    <string name="schema_shelve_column_picture">Photo</string>
+    <!-- Schema Varietal -->
+    <string name="schema_varietal_tablename">Cépage</string>
+    <string name="schema_varietal_percentage">Pourcentage</string>
+    <string name="schema_varietal_name">Nom</string>
+    <!-- Schema Dish -->
+    <string name="schema_dish_tablename">Met</string>
+    <string name="schema_dish_name">Nom</string>
+    <string name="schema_dish_column_hyperlink">Hyperlien</string>
+    <string name="schema_dish_column_notes">Notes</string>
+    <!-- Schema Taste -->
+    <string name="schema_taste_tablename">Dégustation</string>
+    <string name="schema_taste_summary">Résumé</string>
+    <string name="schema_taste_eye">L\'oeil</string>
+    <string name="schema_taste_nose">Le nez</string>
+    <string name="schema_taste_mouth">La bouche</string>
+    <string name="schema_taste_other">Autre</string>
+    <string name="schema_taste_tastedyear">Année de dégustation</string>
+    <string name="schema_taste_tastedmonth">Mois de dégustation</string>
+    <string name="schema_taste_tastedday">Jour de dégustation</string>
+    <!-- Schema Settings -->
+    <string name="schema_settings_tablename">Paramètres / Outils</string>
+    <string name="schema_settings_bottlelist_viewtype">Type de vue</string>
+    <string name="schema_settings_bottlelist_sortcolumnname">Colonne de tri</string>
+    <string name="schema_settings_bottleform_defaultcolorid">Couleur par défaut</string>
+    <string name="schema_settings_bottleform_defaultcountry">Pays par défaut</string>
+    <string name="schema_settings_general_category">Général</string>
+    <string name="schema_settings_general_theme">Thème</string>
+    <!-- Schema Color -->
+    <string name="schema_color_tablename">Couleur</string>
+    <string name="schema_color_name">Nom</string>
+    <string name="schema_color_color">Couleur</string>
+    <string name="schema_color_notes">Notes</string>
+    <!-- Schema Cellar -->
+    <string name="schema_cellar_tablename">Cave</string>
+    <string name="schema_cellar_default_name">Ma cave</string>
+    <string name="schema_cellar_name">Nom</string>
+    <string name="schema_cellar_notes">Notes</string>
+    <string name="schema_cellar_column_picture">Photo</string>
+    <!-- Schema Location -->
+    <string name="schema_location_tablename">Emplacement</string>
+    <string name="schema_location_type">Type</string>
+    <string name="schema_location_shelveid">Étagère</string>
+    <string name="schema_location_x">Colonne</string>
+    <string name="schema_location_y">Ligne</string>
+    <string name="schema_location_quantity">Quantité</string>
+    <!-- Bottle -->
+    <string name="bottlelistpage_activity_title">Bouteilles</string>
+    <string name="bottlelistpage_activity_export">Exporter</string>
+    <string name="bottleentryform_activity_scandialog_title">Sélection</string>
+    <string name="bottleentryform_activity_scandialog_choice_takebarcode">Prendre le code barre</string>
+    <string name="bottleentryform_activity_scandialog_choice_removebarcode">Supprimer le code barre</string>
+    <string name="bottleentryform_activity_keeptime">Temps de garde min (année)</string>
+    <string name="bottleentryform_activity_maxkeeptime">Temps de garde max (année)</string>
+    <string name="bottleentryform_activity_createddate">Date d\'entrée</string>
+    <string name="bottleentryform_activity_share">Partager</string>
+    <string name="bottleentryform_activity_contact_title">Sélection du contact</string>
+    <string name="bottleentryform_activity_contact_choice_take">Sélectionner le lien vers un contact</string>
+    <string name="bottleentryform_activity_contact_choice_see">Voir le contact</string>
+    <string name="bottleentryform_activity_contact_choice_remove">Supprimer le lien vers un contact</string>
+    <string name="bottleentryform_activity_contact_retrieve_name">Voulez-vous changer \"%1$s\" par \"%2$s\" ?</string>
+    <string name="bottleentryform_activity_mindueyearmustinfmaxdueyear">Le temps de garde min doit être inférieur ou égal au temps de garde max.</string>
+    <string name="bottleentryform_activity_scandialog_choice_openhyperlink">Ouvrir l\'hyperlien</string>
+    <string name="bottleentryform_activity_scandialog_choice_takehyperlink">Prendre l\'hyperlien</string>
+    <string name="bottleentryform_activity_scandialog_choice_removehyperlink">Supprimer l\'hyperlien</string>
+    <string name="bottleentryform_activity_withsamebottlefield">Bouteilles avec même &#8230;</string>
+    <string name="shelve_prompt">Choisir l\'étagère</string>
+    <string name="color_prompt">Choisir la couleur</string>
+
+    <string-array name="colors_array">
+        <item>Rouge</item>
+        <item>Rosé</item>
+        <item>Blanc (sec)</item>
+        <item>Blanc (liquoreux)</item>
+        <item>Champagne</item>
+        <item>Champagne (rosé)</item>
+        <item>Effervescent</item>
+        <item>Autre</item>
+    </string-array>
+
+    <string name="capacity_prompt">Choisir la contenance (litre)</string>
+    
+    <string-array name="withsamebottlefield_array">
+        <item>Nom</item>
+        <item>Appellation</item>
+        <item>Couleur</item>
+        <item>Millésime</item>
+        <item>Pays</item>
+        <item>Région</item>
+        <item>Sous-région</item>
+        <item>Domaine</item>
+        <item>Classification</item>
+        <item>Contenance</item>
+        <item>Vote</item>
+        <item>Température de service</item>
+        <item>Par année de maturité (min)</item>
+        <item>Par année de maturité (max)</item>
+        <item>Producteur</item>
+        <item>Fournisseur</item>
+        <item>Degrès</item>
+    </string-array>
+    
+    <!-- BottleFields -->
+    <string-array name="bottlefields_array">
+        <item>Bouteilles</item>
+        <item>Par étagère</item>
+        <item>Prêt à boire</item>
+        <item>À acheter</item>
+        <item>Par appellation</item>
+        <item>Par couleur</item>
+        <item>Par millésime</item>
+        <item>Par pays</item>
+        <item>Par région</item>
+        <item>Par sous-région</item>
+        <item>Par domaine</item>
+        <item>Par classification</item>
+        <item>Par contenance</item>
+        <item>Par vote</item>
+        <item>Par année de maturité (min)</item>
+        <item>Par année de maturité (max)</item>
+        <item>Par cépage</item>
+        <item>Sans cépage</item>
+        <item>Par met</item>
+        <item>Sans met</item>
+        <item>Par dégustation</item>
+        <item>Sans dégustation</item>
+        <item>Par producteur</item>
+        <item>Par fournisseur</item>
+        <item>À oublier</item>
+        <item>Agriculture biologique</item>
+        <item>En commande</item>
+        <item>À garder</item>
+        <item>À consommer</item>
+    </string-array>
+
+    <plurals name="bottlefieldlist_item_bottle_label">
+        <item quantity="one">%1$d bouteille</item>
+        <item quantity="other">%1$d bouteilles</item>
+    </plurals>
+
+    <string name="bottlefieldlist_item_price_label">Montant total : </string>
+    <string name="bottlefieldlist_item_stats_prompt_title">Choix du type de statistiques</string>
+    <string name="bottlefieldlist_item_stats_by_quantity">Statistiques \"nombre de bouteilles\"</string>
+    <string name="bottlefieldlist_item_stats_by_record">Statistiques \"type de bouteilles\"</string>
+    <string name="bottlefieldlist_item_stats_by_price">Statistiques \"prix\"</string>
+    <string name="readytodrinklist_activity_name">Prêts à boire</string>
+
+    <!-- Cellar -->
+    <string name="cellar_prompt">Contexte :</string>
+    <string name="cellar_spinner_allbottles">Toutes les bouteilles</string>
+    <string name="cellar_spinner_emptybottles">Sans emplacement/quantité</string>
+    <string name="cellar_spinner_allcellars">Toutes les caves</string>
+
+    <plurals name="cellarlistpage_countofshelves">
+        <item quantity="one">(%1$d étagère)</item>
+        <item quantity="other">(%1$d étagères)</item>
+    </plurals>
+
+    <!-- Shelve -->
+    <string name="shelvelistpage_activity_occupation">Occupation : %1$s - %2$d/%3$d bouteilles</string>
+
+    <plurals name="shelveentryform_activity_cannotchangesize">
+        <item quantity="one">%1$d bouteille est déjà affectée à cette étagère, diminution de la taille impossible.</item>
+        <item quantity="other">%1$d bouteilles sont déjà affectées à cette étagère, diminution de la taille impossible.</item>
+    </plurals>
+
+    <string name="shelveentryform_activity_nbofbottles">Capacité totale :</string>
+    <string name="shelve_type_prompt">Choisir le type</string>
+
+    <string-array name="shelve_type_array">
+        <item>Aligné</item>
+        <item>Décalé</item>
+        <item>Pyramide</item>
+        <item>Autre</item>
+    </string-array>
+
+    <string name="shelveentryform_activity_rowsinfcolumnswithpyramid">Le Nombre de lignes doit être inférieur ou égal au Nombre de colonnes avec le type Pyramide.</string>
+
+    <!-- Locations -->
+    <string name="locationlistpage_activity_title">Emplacements / Quantité</string>
+    <string name="location_type_prompt">Choisir le type</string>
+    <string name="locationentryform_activity_noplaceinshelf">L\'étagère %1$s est déjà pleine.</string>
+    <string name="locationentryform_activity_placealreadyused_on_same_bottle">Ces coordonnées sont déjà utilisées avec la bouteille courante.</string>
+    <string name="locationentryform_activity_placealreadyused_on_other_bottle">Ces coordonnées sont déjà utilisées avec une autre bouteille.</string>
+    <string name="locationentryform_activity_placealreadyused_action_text">Ouvrir</string>
+    <string name="locationentryform_activity_minimumquantity">Un emplacement doit avoir une quantité minimale de 1. Si la quantité est de 0, supprimez l\'emplacement.</string>
+
+    <string-array name="location_type_array">
+        <item>Sans coordonnées</item>
+        <item>Avec coordonnées</item>
+    </string-array>
+
+    <!-- Varietal -->
+    <string name="varietallistpage_activity_title">Cépages</string>
+
+    <!-- Dishes -->
+    <string name="dishlistpage_activity_title">Mets</string>
+
+    <!-- Tastes -->
+    <string name="tastelistpage_activity_title">Dégustations</string>
+    <string name="tasteentryform_activity_tasteddate">Date de dégustation</string>
+
+    <!-- Settings -->
+    <string name="viewtype_prompt">Choisir la type de vue</string>
+    <string name="theme_prompt">Choisir le thème</string>
+
+    <string-array name="viewtype_array">
+        <item>En liste</item>
+        <item>En galerie</item>
+    </string-array>
+    <string-array name="theme_array">
+        <item>Clair</item>
+        <item>Barre d\'action foncée</item>
+        <item>Foncé</item>
+        <item>Barre d\'action colorée</item>
+    </string-array>
+
+    <string name="settingsform_tools_category">Outils</string>
+    <string name="settingsform_settings_category">Paramètres</string>
+    <string name="settingsform_backup_restore_sdnotfound">Problème d\'accès à la carte SD.</string>
+    <string name="settingsform_restore_notfilesfound">Aucun fichier à restaurer dans le répertoire %1$s.</string>
+    <string name="settingsform_restore_selectfile">Choisir le fichier</string>
+    <string name="settingsform_restore_badfilename">Nom du fichier incorrect.</string>
+    <string name="settingsform_restore_baddbversion">Version de la sauvegarde plus récente que l\'application courante.</string>
+    <string name="settingsform_restore_succesfully">Restauration de la base de données réussie.</string>
+    <string name="settingsform_csvimport_problematfieldandline">Problème de récupération du champ %1$s de la ligne %2$d.</string>
+    <string name="settingsform_csvimport_problematsaveitem">Problème lors de la sauvegarde de la ligne %1$d.</string>
+    <string name="settingsform_csvimport_problematreadfile">Problème lors de la lecture du fichier %1$s.</string>
+    <string name="settingsform_csvimport_successfullyimported">Import réalisé avec succès. %1$d lignes ont été importées.</string>
+    <string name="settingsform_useexternalstorage_dialog_title">Déplacement de la base de données</string>
+    <string name="settingsform_useexternalstorage_dialog_message">Avant le déplacement de la base de données et par sécurité, une sauvegarde va être effectuée. À tout moment, vous pourrez la restaurer.</string>
+    <string name="settingsform_useexternalstorage_dialog_success">Déplacement de la base de données réalisé avec succès.</string>
+    <string name="settingsform_useexternalstorage_dialog_cancel">Action annulée.</string>
+    <string name="settingsform_backup_tooltip">Permet de faire une sauvegarde complète de vos données ou de les synchroniser entre deux appareils.</string>
+    <string name="settingsform_csvexport_tooltip">Permet d\'extraire partiellement quelques informations de vos bouteilles. Cela ne joue pas le rôle d\'une sauvegarde complète de vos données.</string>
+
+    <string-array name="actions_array">
+        <item>Sauvegarder la base de données</item>
+        <item>Restaurer la base de données</item>
+        <item>Base de données sur la carte SD</item>
+        <item>Exporter les bouteilles au format CSV</item>
+        <item>Importer les bouteilles au format CSV</item>
+        <item>Supprimer toutes les bouteilles</item>
+    </string-array>
+
+</resources>
