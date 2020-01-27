@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Els meus cellers i tasts</string>
+    <!-- Main -->
+    <string name="main_rate_menu">Puntuar</string>
+    <string name="main_sendemail_menu">Contactar</string>
+    <string name="main_sendemail_title">Enviar correu electr. &#8230;</string>
+    <string name="main_share_menu">Compartir</string>
+    <string name="main_share_title">Compartir amb &#8230;</string>
+    <string name="main_share_extrasubject">Aplicació Android \"%1$s\"</string>
+    <string name="main_search_bytext">Cerca per cadena</string>
+    <string name="main_search_bycode">Cerca per codi de barres</string>
+    <string name="main_searchbarcode_createbottle">Aquesta ampolla no existeix, ¿Voleu afegir-la?</string>
+    <string name="main_history_button">Darreres 10 entrades</string>
+
+    <string-array name="navbar_array">
+        <item>Ampolles</item>
+        <item>Darreres 10 entrades</item>
+        <item>Cerca</item>
+        <item>Els meus colors</item>
+        <item>Els meus prestatges</item>
+        <item>Els meus cellers</item>
+        <item>Paràmetres / Eines</item>
+        <item>Ajuda</item>
+    </string-array>
+    <!-- Schema Bottle -->
+    <string name="schema_bottle_tablename">Ampolla</string>
+    <string name="schema_bottle_column_name">Nom</string>
+    <string name="schema_bottle_column_color">Color</string>
+    <string name="schema_bottle_column_country">País</string>
+    <string name="schema_bottle_column_region">Regió</string>
+    <string name="schema_bottle_column_designation">Denominació d\'origen</string>
+    <string name="schema_bottle_column_quantity">Quantitat</string>
+    <string name="schema_bottle_column_vintage">Collita</string>
+    <string name="schema_bottle_column_price">Preu de compra</string>
+    <string name="schema_bottle_column_picture">Etiqueta</string>
+    <string name="schema_bottle_column_rating">Valoració</string>
+    <string name="schema_bottle_column_barcode">Codi de barres</string>
+    <string name="schema_bottle_column_degrees">Graus (%)</string>
+    <string name="schema_bottle_column_notes">Notes</string>
+    <string name="schema_bottle_column_capacity">Capacitat (litre)</string>
+    <string name="schema_bottle_column_dueyear">Any mínim de maduració</string>
+    <string name="schema_bottle_column_maxdueyear">Any màxim de maduració</string>
+    <string name="schema_bottle_column_tobuy">Per a comprar</string>
+    <string name="schema_bottle_column_domain">Propietat</string>
+    <string name="schema_bottle_column_provider">Proveïdor</string>
+    <string name="schema_bottle_column_producer">Productor</string>
+    <string name="schema_bottle_column_biologic">Ecològic</string>
+    <string name="schema_bottle_column_toforget">Per a oblidar</string>
+    <string name="schema_bottle_column_temperature">Temperatura de consum (°C)</string>
+    <string name="schema_bottle_column_backpicture">Contra-etiqueta</string>
+    <string name="schema_bottle_column_currentprice">Preu actual</string>
+    <string name="schema_bottle_column_classification">Classificació</string>
+    <string name="schema_bottle_column_award">Premi</string>
+    <string name="schema_bottle_column_subregion">Comarca</string>
+    <string name="schema_bottle_column_hyperlink">Enllaç</string>
+    <string name="schema_bottle_column_incommand">Al comandament</string>
+    <string name="schema_bottle_column_tokeep">Per mantenir</string>
+    <string name="schema_bottle_column_toconsume">Per consumir</string>
+    <!-- Schema Shelve -->
+    <string name="schema_shelve_tablename">Prestatge</string>
+    <string name="schema_shelve_default_name">[Sense prestatge]</string>
+    <string name="schema_shelve_column_name">Nom</string>
+    <string name="schema_shelve_column_columns">Nombre de columnes</string>
+    <string name="schema_shelve_column_rows">Nombre de línies</string>
+    <string name="schema_shelve_column_notes">Notes</string>
+    <string name="schema_shelve_column_type">Tipus</string>
+    <string name="schema_shelve_column_cellarid">Cellers</string>
+    <string name="schema_shelve_column_picture">Foto</string>
+    <!-- Schema Varietal -->
+    <string name="schema_varietal_tablename">Varietat</string>
+    <string name="schema_varietal_percentage">Percentatge</string>
+    <string name="schema_varietal_name">Nombre</string>
+    <!-- Schema Dish -->
+    <string name="schema_dish_tablename">Plat</string>
+    <string name="schema_dish_name">Nom</string>
+    <string name="schema_dish_column_hyperlink">Enllaç</string>
+    <string name="schema_dish_column_notes">Notes</string>
+    <!-- Schema Taste -->
+    <string name="schema_taste_tablename">Tast</string>
+    <string name="schema_taste_summary">Resum</string>
+    <string name="schema_taste_eye">Cop d\'ull</string>
+    <string name="schema_taste_nose">El nas</string>
+    <string name="schema_taste_mouth">La boca</string>
+    <string name="schema_taste_other">D\'altres</string>
+    <string name="schema_taste_tastedyear">Any de tast</string>
+    <string name="schema_taste_tastedmonth">Mes de tast</string>
+    <string name="schema_taste_tastedday">Dia de tast</string>
+    <!-- Schema Settings -->
+    <string name="schema_settings_tablename">Paràmetres / Eines</string>
+    <string name="schema_settings_bottlelist_viewtype">Tipus de vista</string>
+    <string name="schema_settings_bottlelist_sortcolumnname">Columna de ordre</string>
+    <string name="schema_settings_bottleform_defaultcolorid">Color per defecte</string>
+    <string name="schema_settings_bottleform_defaultcountry">País per defecte</string>
+    <string name="schema_settings_general_category">General</string>
+    <string name="schema_settings_general_theme">Tema</string>
+    <!-- Schema Color -->
+    <string name="schema_color_tablename">Color</string>
+    <string name="schema_color_name">Nom</string>
+    <string name="schema_color_color">Color</string>
+    <string name="schema_color_notes">Notes</string>
+    <!-- Schema Cellar -->
+    <string name="schema_cellar_tablename">Celler</string>
+    <string name="schema_cellar_default_name">El meu celler</string>
+    <string name="schema_cellar_name">Nom</string>
+    <string name="schema_cellar_notes">Notes</string>
+    <string name="schema_cellar_column_picture">Foto</string>
+    <!-- Schema Location -->
+    <string name="schema_location_tablename">Col·locació</string>
+    <string name="schema_location_type">Tipus</string>
+    <string name="schema_location_shelveid">Prestatge</string>
+    <string name="schema_location_x">Columna</string>
+    <string name="schema_location_y">Línia</string>
+    <string name="schema_location_quantity">Quantitat</string>
+    <!-- Bottle -->
+    <string name="bottlelistpage_activity_title">Ampolles</string>
+    <string name="bottlelistpage_activity_export">Exportar</string>
+    <string name="bottleentryform_activity_scandialog_title">Selecció</string>
+    <string name="bottleentryform_activity_scandialog_choice_takebarcode">Agafar el codi de barres codi de barres</string>
+    <string name="bottleentryform_activity_scandialog_choice_removebarcode">Eliminar el codi de barres</string>
+    <string name="bottleentryform_activity_keeptime">Temps de guarda mínim (any)</string>
+    <string name="bottleentryform_activity_maxkeeptime">Temps de guarda màxim (any)</string>
+    <string name="bottleentryform_activity_createddate">Data d\'entrada</string>
+    <string name="bottleentryform_activity_share">Compartir</string>
+    <string name="bottleentryform_activity_contact_title">Selecció del contacte</string>
+    <string name="bottleentryform_activity_contact_choice_take">Agafar l\'enllaç de contacte</string>
+    <string name="bottleentryform_activity_contact_choice_see">Consulti el contacte</string>
+    <string name="bottleentryform_activity_contact_choice_remove">Treure l\'enllaç de contacte</string>
+    <string name="bottleentryform_activity_contact_retrieve_name">Vols canviar-ho? \"%1$s\" per \"%2$s\"?</string>
+    <string name="bottleentryform_activity_mindueyearmustinfmaxdueyear">El Temps de guarda mínim ha de ser inferior o igual al Temps de guarda màxim.</string>
+    <string name="bottleentryform_activity_scandialog_choice_openhyperlink">Obrir el enllaç</string>
+    <string name="bottleentryform_activity_scandialog_choice_takehyperlink">Agafar el enllaç</string>
+    <string name="bottleentryform_activity_scandialog_choice_removehyperlink">Eliminar el enllaç</string>
+    <string name="bottleentryform_activity_withsamebottlefield">Ampolles amb el mateix &#8230;</string>
+    <string name="shelve_prompt">Escollir el prestatge</string>
+    <string name="color_prompt">Escollir el color</string>
+
+    <string-array name="colors_array">
+        <item>Negre</item>
+        <item>Rosat</item>
+        <item>Blanc (sec)</item>
+        <item>Blanc (dolç)</item>
+        <item>Cava</item>
+        <item>Cava (rosat)</item>
+        <item>Escumós</item>
+        <item>D\'altres</item>
+    </string-array>
+
+    <string name="capacity_prompt">Escollir la capacitat (litre)</string>
+    
+    <string-array name="withsamebottlefield_array">
+        <item>Nom</item>
+        <item>Denominació</item>
+        <item>Color</item>
+        <item>Collita</item>
+        <item>País</item>
+        <item>Regió</item>
+        <item>Comarca</item>
+        <item>Propietat</item>
+        <item>Classificació</item>
+        <item>Capacitat</item>
+        <item>Valoració</item>
+        <item>Temperatura de consum</item>
+        <item>Any de maduració (mínim)</item>
+        <item>Any de maduració (màxim)</item>
+        <item>Productor</item>
+        <item>Proveïdor</item>
+        <item>Graus</item>
+    </string-array>
+    
+    <!-- BottleFields -->
+    <string-array name="bottlefields_array">
+        <item>Ampolles</item>
+        <item>Per prestatge</item>
+        <item>Llest per a  beure</item>
+        <item>Per comprar</item>
+        <item>Per denominació</item>
+        <item>Per color</item>
+        <item>Per collita</item>
+        <item>Per país</item>
+        <item>Per regió</item>
+        <item>Per comarca</item>
+        <item>Per propietat</item>
+        <item>Per classificació</item>
+        <item>Per capacitat</item>
+        <item>Per valoració</item>
+        <item>Per any de maduració (mínim)</item>
+        <item>Per any de maduració (màxim)</item>
+        <item>Per varietat</item>
+        <item>Sense varietat</item>
+        <item>Per plat</item>
+        <item>Sense plat</item>
+        <item>Per tast</item>
+        <item>Sense tast</item>
+        <item>Per productor</item>
+        <item>Per proveïdor</item>
+        <item>Per a oblidar</item>
+        <item>Ecològic</item>
+        <item>Al comandament</item>
+        <item>Per mantenir</item>
+        <item>Per consumir</item>
+    </string-array>
+
+    <plurals name="bottlefieldlist_item_bottle_label">
+        <item quantity="one">%1$d ampolla</item>
+        <item quantity="other">%1$d ampolles</item>
+    </plurals>
+
+    <string name="bottlefieldlist_item_price_label">Preu total: </string>
+    <string name="bottlefieldlist_item_stats_prompt_title">Escollir el tipus d\'estadística</string>
+    <string name="bottlefieldlist_item_stats_by_quantity">Estadística \"nombre d\'ampolles\"</string>
+    <string name="bottlefieldlist_item_stats_by_record">Estadística \"tipus d\'ampolles\"</string>
+    <string name="bottlefieldlist_item_stats_by_price">Estadística \"preu\"</string>
+    <string name="readytodrinklist_activity_name">Llest per beure</string>
+
+    <!-- Cellar -->
+    <string name="cellar_prompt">Context:</string>
+    <string name="cellar_spinner_allbottles">Totes les ampolles</string>
+    <string name="cellar_spinner_emptybottles">Sense col·locació/quantitat</string>
+    <string name="cellar_spinner_allcellars">Tots els cellers</string>
+
+    <plurals name="cellarlistpage_countofshelves">
+        <item quantity="one">(%1$d prestatge)</item>
+        <item quantity="other">(%1$d prestatges)</item>
+    </plurals>
+
+    <!-- Shelve -->
+    <string name="shelvelistpage_activity_occupation">Ocupació: %1$s - %2$d/%3$d ampolles</string>
+
+    <plurals name="shelveentryform_activity_cannotchangesize">
+        <item quantity="one">%1$d Aquesta ampolla ha estat assignada al prestatge, no en pot disminuir la quantitat.</item>
+        <item quantity="other">%1$d Aquestes ampolles han estat assignades al prestatge, no en pot disminuir la quantitat.</item>
+    </plurals>
+
+    <string name="shelveentryform_activity_nbofbottles">Capacitat total:</string>
+    <string name="shelve_type_prompt">Escollir el tipus</string>
+
+    <string-array name="shelve_type_array">
+        <item>Alineat</item>
+        <item>Desplaçat</item>
+        <item>Piràmide</item>
+        <item>D\'altres</item>
+    </string-array>
+
+    <string name="shelveentryform_activity_rowsinfcolumnswithpyramid">El Nombre de línies ha de ser inferior o igual al Nombre de columnes amb el tipus Piràmide.</string>
+
+    <!-- Locations -->
+    <string name="locationlistpage_activity_title">Col·locacions / Quantitat</string>
+    <string name="location_type_prompt">Escollir el tipus</string>
+    <string name="locationentryform_activity_noplaceinshelf">El prestatge %1$s ja està ple.</string>
+    <string name="locationentryform_activity_placealreadyused_on_same_bottle">Aquestes coordenades ja estan fixades amb aquesta ampolla actual.</string>
+    <string name="locationentryform_activity_placealreadyused_on_other_bottle">Aquestes coordenades ja estan fixades amb una altra ampolla.</string>
+    <string name="locationentryform_activity_placealreadyused_action_text">Obrir</string>
+    <string name="locationentryform_activity_minimumquantity">Una col·locació ha de tenir una quantitat mínima d\'1. Si la quantitat es 0, eliminar la col·locació.</string>
+
+    <string-array name="location_type_array">
+        <item>Sense coordenades</item>
+        <item>Amb coordenades</item>
+    </string-array>
+
+    <!-- Varietal -->
+    <string name="varietallistpage_activity_title">Varietats</string>
+
+    <!-- Dishes -->
+    <string name="dishlistpage_activity_title">Plats</string>
+
+    <!-- Tastes -->
+    <string name="tastelistpage_activity_title">Tasts</string>
+    <string name="tasteentryform_activity_tasteddate">Data del tast</string>
+
+    <!-- Settings -->
+    <string name="viewtype_prompt">Escollir el tipus de vista</string>
+    <string name="theme_prompt">Escollir el tema</string>
+
+    <string-array name="viewtype_array">
+        <item>En llista</item>
+        <item>En galeria</item>
+    </string-array>
+    <string-array name="theme_array">
+        <item>Lleuger</item>
+        <item>Barra d\'acció fosca</item>
+        <item>Obscur</item>
+        <item>Barra d\'acció de color</item>
+    </string-array>
+
+    <string name="settingsform_tools_category">Eines</string>
+    <string name="settingsform_settings_category">Paràmetres</string>
+    <string name="settingsform_backup_restore_sdnotfound">Targeta SD no trobada.</string>
+    <string name="settingsform_restore_notfilesfound">No s\'han trobat fitxers a restaurar en la carpeta de %1$s.</string>
+    <string name="settingsform_restore_selectfile">Escollir el fitxer</string>
+    <string name="settingsform_restore_badfilename">Nom de fitxer  incorrecte.</string>
+    <string name="settingsform_restore_baddbversion">Versió de la còpia de seguretat més recent que la aplicació actual.</string>
+    <string name="settingsform_restore_succesfully">Restauració feta amb èxit.</string>
+    <string name="settingsform_csvimport_problematfieldandline">Problema en la recuperació del camp %1$s de la línia %2$d.</string>
+    <string name="settingsform_csvimport_problematsaveitem">Problema amb l\'ampolla de la línia %1$d.</string>
+    <string name="settingsform_csvimport_problematreadfile">Problema per a  llegir el fitxer %1$s.</string>
+    <string name="settingsform_csvimport_successfullyimported">Importació feta amb èxit. %1$d línies importades.</string>
+    <string name="settingsform_useexternalstorage_dialog_title">Trasllat de la base de dades</string>
+    <string name="settingsform_useexternalstorage_dialog_message">Abans de moure la base de dades i per a  seguretat,es farà una còpia de seguretat. En tot  moment, es pot restaurar".</string>
+    <string name="settingsform_useexternalstorage_dialog_success">Trasllat de la base de dades feta amb èxit.</string>
+    <string name="settingsform_useexternalstorage_dialog_cancel">Acció cancel·lada.</string>
+    <string name="settingsform_backup_tooltip">Anem a fer una còpia de seguretat completa de les seves dades o sincronitzar entre dispositius.</string>
+    <string name="settingsform_csvexport_tooltip">Es pot extreure una part d\'informació de les seves ampolles. No actua com una còpia de seguretat completa de les seves dades.</string>
+
+    <string-array name="actions_array">
+        <item>Fer una còpia de seguretat</item>
+        <item>Restaurar una còpia de seguretat</item>
+        <item>Base de dades en targeta SD</item>
+        <item>Exportar les ampolles en format CSV</item>
+        <item>Importar les ampolles en format CSV</item>
+        <item>Eliminar totes les ampolles</item>
+    </string-array>
+
+</resources>
